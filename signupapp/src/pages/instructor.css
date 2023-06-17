@@ -1,0 +1,73 @@
+.instructorAdd{
+    flex: 4;
+    margin-top: 20px;
+}
+
+.instructorAddForm{
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-shadow: 0px 0px 11px -2px #000000; 
+    box-shadow: 0px 0px 11px -2px #000000;
+    padding: 20px;
+    margin: 10px;
+}
+
+.instructorAddItem{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.instructorAddItem>label{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(151, 150, 150);
+}
+
+.instructorAddItem>input{
+    height: 30px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.instructorAddStatus>input{
+    margin-top: 10px;
+}
+
+.instructorAddStatus>label{
+    margin: 10px;
+    font-size: 18px;
+    color: #555;
+}
+
+.instructorAddGender>input{
+    margin-top: 10px;
+}
+
+.instructorAddGender>label{
+    margin: 10px;
+    font-size: 18px;
+    color: #555;
+}
+
+.instructorAddSelect{
+    height: 40px;
+    border-radius: 5px;
+}
+
+.instructorAddButton{
+    width: 200px;
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 7px 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-left: 40%;
+}

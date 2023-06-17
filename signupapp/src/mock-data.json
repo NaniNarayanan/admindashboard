@@ -1,0 +1,29 @@
+[
+    {
+        "Id": 1,
+        "CourseName": "Java Full Stack Development",
+        "CoreSubject": "Java & Advanced Java",
+        "ElectiveSubject": "AWS & Angular, React",
+        "DatabaseSubject": "MySql & MongoDB",
+        "TotalLesson": "86",
+        "Duration": "12months"
+    },
+    {
+        "Id": 2,
+        "CourseName": "UI/UX Design",
+        "CoreSubject": "HTML, CSS & Bootstrap",
+        "ElectiveSubject": "Javascript & Angular",
+        "DatabaseSubject": "Nil",
+        "TotalLesson": "23",
+        "Duration": "3months"
+    },
+    {
+        "Id": 3,
+        "CourseName": "MERN Full Stack Development",
+        "CoreSubject": "Ract JS, ES6",
+        "ElectiveSubject": "Node JS & Express",
+        "DatabaseSubject": "MongoDB",
+        "TotalLesson": "54",
+        "Duration": "6months"
+    }
+]

@@ -1,0 +1,159 @@
+.instructorDetails{
+    flex: 4 ;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.instructorTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.instructorDetailAddButton{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: blue;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.instructorContainer{
+    display: flex;
+}
+
+.instructorShow{
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 11px -2px #000000; 
+    box-shadow: 0px 0px 11px -2px #000000;
+}
+
+.instructorUpdate{
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 11px -2px #000000; 
+    box-shadow: 0px 0px 11px -2px #000000;
+    margin-left: 20px;
+}
+
+.instructorShowTop{
+    display: flex;
+    align-items: center;
+}
+
+.instructorShowImg{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.instructorShowTopTitle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.instructorShowUsername{
+    font-weight: 600;
+}
+
+.instructorShowDepartment{
+    font-weight: 300;
+}
+
+.instructorShowBottom{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.instructorShowTitle{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(175, 170, 170);
+}
+
+.instructorShowInfo{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: #444;
+}
+
+.instructorShowIcon{
+    font-size: 16px !important;
+}
+
+.userShowInfoTitle{
+    margin-left: 10px;
+}
+
+.instructorUpdateTitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.instructorUpdateForm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.instructorUpdateItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.instructorUpdateLeft{
+    margin-left: 30px;
+}
+
+.instructorUpdateItem>label{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.instructorUpdateInput{
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid gray;
+}
+
+.instructorUpdateRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.instructorUpdateUpload{
+    display: flex;
+    align-items: center;
+}
+
+.instructorUpdateIcon{
+    cursor: pointer;
+}
+
+.instructorUpdateImg{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.instructorUpdateButton{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+}

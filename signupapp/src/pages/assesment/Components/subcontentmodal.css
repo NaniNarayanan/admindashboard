@@ -1,0 +1,56 @@
+.assesmentAddForm{
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-shadow: 0px 0px 11px -2px #000000; 
+    box-shadow: 0px 0px 11px -2px #000000;
+    padding: 20px;
+    margin: 10px;
+}
+
+.assesmentAddItem{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.assesmentAddItem>label{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(151, 150, 150);
+}
+
+.assesmentAddItem>input{
+    height: 40px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+
+.assesmentAddButton{
+    width: 200px;
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 7px 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 40%;
+    margin-bottom: 20px;
+}
+
+
+.assesmentAddForm{
+    display: flex !important;
+    flex-direction: column !important;
+    padding-bottom: 0px;
+}
+
+.form-control {
+    width: 50% !important;
+    min-height: 10% !important;
+}
